@@ -1,12 +1,6 @@
 import React from 'react';
 import "./index.scss";
-import ApeintoshContent from "./apeintoshContent/ApeintoshContent";
 import { useRef, useState, useEffect } from "react";
-import useDidUpdateEffect from "../../../hooks/useDidUpdateEffect";
-import useReduxState from "../../../hooks/useReduxState";
-import { useMediaQuery } from "react-responsive";
-import ApesRemaining from "./apesRemaining/ApesRemaining";
-import Carousel from "react-spring-3d-carousel-2";
 import { v4 as uuidv4 } from "uuid";
 import { config } from "react-spring";
 
@@ -53,85 +47,6 @@ export default function Apeintosh(): JSX.Element {
       content: <img src={Image6} alt="6" />
     }
   ]
-
-  // const apeintoshImg = useRef<HTMLImageElement>(null);
-  // const [size, setSize] = useState<{ width: string; height: string }>({
-  //   width: "0px",
-  //   height: "0px",
-  // });
-
-  // const [{ wallet, screenLoading: loading }, setGlobalData] = useReduxState(
-  //   (state) => state.globalData
-  // );
-  // const handleResize = () => {
-  //   if (apeintoshImg && apeintoshImg.current) {
-  //     setSize({
-  //       height: `${apeintoshImg.current.clientHeight}px`,
-  //       width: `${apeintoshImg.current.clientWidth}px`,
-  //     });
-  //   }
-  // };
-
-  // const isMobile = useMediaQuery({
-  //   query: "(max-width:992px)",
-  // });
-
-  // useEffect(() => {
-  //   // setInterval(function() {console.log("object")}, 3000);
-  //   window.addEventListener("resize", handleResize);
-  //   handleResize();
-  // }, []);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setGoToSlide(goToSlide + 1);
-  //   }, 1000);
-  //   return () => clearInterval(interval);
-  // }, []);
-
-  // useDidUpdateEffect(() => {
-  //   if (wallet) {
-  //     wallet!.on("connect", () => {
-  //       setGlobalData({
-  //         type: "SET_GLOBAL_DATA",
-  //         arg: {
-  //           connected: true,
-  //         },
-  //       });
-  //     });
-  //     wallet!.on("disconnect", () => {
-  //       setGlobalData({
-  //         type: "SET_GLOBAL_DATA",
-  //         arg: {
-  //           connected: false,
-  //         },
-  //       });
-  //     });
-
-  //     wallet!.connect();
-  //     return () => {
-  //       wallet!.disconnect();
-  //     };
-  //   }
-  // }, [wallet]);
-
-  // useDidUpdateEffect(() => {
-  //   handleResize();
-  // }, [loading]);
-
-  // const current = () => {
-  //   let now = new Date();
-
-  //   var dateString = moment(now).format('YYYY-MM-DD');
-  //   console.log(dateString) // Output: 2020-07-21
-
-  //   var dateStringWithTime = moment(now).format('YYYY-MM-DD HH:MM:SS');
-  //   console.log(dateStringWithTime)
-  //   return (
-  //     <p>{dateStringWithTime}</p>
-  //   )
-  // }
-
   const [date, setDate] = useState(new Date().getHours());
   const [year, setYear] = useState(new Date().getFullYear());
   const [month, setMonth] = useState(new Date().getMonth());
