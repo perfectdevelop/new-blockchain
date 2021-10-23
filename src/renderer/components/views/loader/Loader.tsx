@@ -10,7 +10,6 @@ console.log("CGI", LoaderGIF);
 
 export default function Loader({ display }: { display: boolean }): JSX.Element {
 
-
   // imageToBase64("./../../../../assets/images/pictures/icons/Loader.gif")
   // .then(
   //     (response) => {

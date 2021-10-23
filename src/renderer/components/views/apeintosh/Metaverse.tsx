@@ -5,45 +5,44 @@ import Carousel from "react-spring-3d-carousel-2";
 import { v4 as uuidv4 } from "uuid";
 import { config } from "react-spring";
 
-import Image1 from '../../../../assets/images/pictures/gaming/(1).png';
-import Image2 from '../../../../assets/images/pictures/gaming/(2).png';
-import Image3 from '../../../../assets/images/pictures/gaming/(3).png';
-import Image4 from '../../../../assets/images/pictures/gaming/(4).png';
-import Image5 from '../../../../assets/images/pictures/gaming/(5).png';
-import Image6 from '../../../../assets/images/pictures/gaming/(6).png';
-import Image7 from '../../../../assets/images/pictures/gaming/(7).png';
-import Image8 from '../../../../assets/images/pictures/gaming/(8).png';
-import Image9 from '../../../../assets/images/pictures/gaming/(9).png';
-import Image10 from '../../../../assets/images/pictures/gaming/(10).png';
-import Image11 from '../../../../assets/images/pictures/gaming/(11).png';
-import Image12 from '../../../../assets/images/pictures/gaming/(12).png';
-import Image13 from '../../../../assets/images/pictures/gaming/(13).png';
-import Image14 from '../../../../assets/images/pictures/gaming/(14).png';
-import Image15 from '../../../../assets/images/pictures/gaming/(15).png';
-import Image16 from '../../../../assets/images/pictures/gaming/(16).png';
-import Image17 from '../../../../assets/images/pictures/gaming/(17).png';
-import Image18 from '../../../../assets/images/pictures/gaming/(18).png';
-import Image19 from '../../../../assets/images/pictures/gaming/(19).png';
-import Image20 from '../../../../assets/images/pictures/gaming/(20).png';
+import Image1 from '../../../../assets/images/pictures/gaming/1.png';
+import Image2 from '../../../../assets/images/pictures/gaming/2.png';
+import Image3 from '../../../../assets/images/pictures/gaming/3.png';
+import Image4 from '../../../../assets/images/pictures/gaming/4.png';
+import Image5 from '../../../../assets/images/pictures/gaming/5.png';
+import Image6 from '../../../../assets/images/pictures/gaming/6.png';
+import Image7 from '../../../../assets/images/pictures/gaming/7.png';
+import Image8 from '../../../../assets/images/pictures/gaming/8.png';
+import Image9 from '../../../../assets/images/pictures/gaming/9.png';
+import Image10 from '../../../../assets/images/pictures/gaming/10.png';
+import Image11 from '../../../../assets/images/pictures/gaming/11.png';
+import Image12 from '../../../../assets/images/pictures/gaming/12.png';
+import Image13 from '../../../../assets/images/pictures/gaming/13.png';
+import Image14 from '../../../../assets/images/pictures/gaming/14.png';
+import Image15 from '../../../../assets/images/pictures/gaming/15.png';
+import Image16 from '../../../../assets/images/pictures/gaming/16.png';
+import Image17 from '../../../../assets/images/pictures/gaming/17.png';
+import Image18 from '../../../../assets/images/pictures/gaming/18.png';
+import Image19 from '../../../../assets/images/pictures/gaming/19.png';
+import Image20 from '../../../../assets/images/pictures/gaming/20.png';
 
 
-import Image112 from '../../../../assets/images/pictures/metaverse/(2).png';
-import Image111 from '../../../../assets/images/pictures/metaverse/(1).png';
-import Image113 from '../../../../assets/images/pictures/metaverse/(3).png';
-import Image114 from '../../../../assets/images/pictures/metaverse/(4).png';
-import Image115 from '../../../../assets/images/pictures/metaverse/(5).png';
-import Image116 from '../../../../assets/images/pictures/metaverse/(6).png';
-import Image117 from '../../../../assets/images/pictures/metaverse/(7).png';
-import Image118 from '../../../../assets/images/pictures/metaverse/(8).png';
-import Image119 from '../../../../assets/images/pictures/metaverse/(9).png';
-import Image1110 from '../../../../assets/images/pictures/metaverse/(10).png';
-import Image1111 from '../../../../assets/images/pictures/metaverse/(11).png';
-import Image1112 from '../../../../assets/images/pictures/metaverse/(12).png';
-import Image1113 from '../../../../assets/images/pictures/metaverse/(13).png';
-import Image1114 from '../../../../assets/images/pictures/metaverse/(14).png';
-import Image1115 from '../../../../assets/images/pictures/metaverse/(15).png';
+import Image111 from '../../../../assets/images/pictures/metaverse/1.png';
+import Image112 from '../../../../assets/images/pictures/metaverse/2.png';
+import Image113 from '../../../../assets/images/pictures/metaverse/3.png';
+import Image114 from '../../../../assets/images/pictures/metaverse/4.png';
+import Image115 from '../../../../assets/images/pictures/metaverse/5.png';
+import Image116 from '../../../../assets/images/pictures/metaverse/6.png';
+import Image117 from '../../../../assets/images/pictures/metaverse/7.png';
+import Image118 from '../../../../assets/images/pictures/metaverse/8.png';
+import Image119 from '../../../../assets/images/pictures/metaverse/9.png';
+import Image1110 from '../../../../assets/images/pictures/metaverse/10.png';
+import Image1111 from '../../../../assets/images/pictures/metaverse/11.png';
+import Image1112 from '../../../../assets/images/pictures/metaverse/12.png';
+import Image1113 from '../../../../assets/images/pictures/metaverse/13.png';
+import Image1114 from '../../../../assets/images/pictures/metaverse/14.png';
+import Image1115 from '../../../../assets/images/pictures/metaverse/15.png';
 import Outerborder from '../../../../assets/images/pictures/carrousel/border.png';
-import Tick from '../../../../assets/images/icons/tick2.png';
 
 
 export default function Metaverse(): JSX.Element {
@@ -204,10 +203,10 @@ export default function Metaverse(): JSX.Element {
     <>
      <p className="metaverse-title">Gaming and Metaverse</p>
      <div className="game-title">
-        <p><span><img src={Tick} alt="tick" /></span>Welcome to the Mutant Ether Babies Gaming and Metaverse section.</p>
-        <p><span><img src={Tick} alt="tick" /></span>All updates regarding our gaming and metaverse will be uploaded in this section of the website.</p>
-        <p><span><img src={Tick} alt="tick" /></span>These are scenes from our development team in respect to what we will launch for our community members sooner after we sell out 100% our MEBs Collection.</p>
-        <p><span><img src={Tick} alt="tick" /></span>STAY TUNNED AND BE INFORMED - JOIN THE NEXT LEVEL NFT TEAM.</p>
+        <p>Welcome to the Mutant Ether Babies Gaming and Metaverse section.</p>
+        <p>All updates regarding our gaming and metaverse will be uploaded in this section of the website.</p>
+        <p>These are scenes from our development team in respect to what we will launch for our community members sooner after we sell out 100% our MEBs Collection.</p>
+        <p>STAY TUNNED AND BE INFORMED - JOIN THE NEXT LEVEL NFT TEAM.</p>
      </div>
     <div
       className="metaverse"
@@ -218,18 +217,19 @@ export default function Metaverse(): JSX.Element {
             <div className="sub-home-image" >
               <div className="carousel-border"></div>
               <img src={Outerborder} alt="outerborder" className="outer-border" />
-              <div style={{ width: "50%", height: "500px", margin: "0 auto" }} className="parent-carousel">
+              <div style={{ width: "50%", height: "280px", margin: "0 auto" }} className="parent-carousel">
                 {slides.length > 0 ? (
                   <Carousel
                     slides={slides}
                     autoPlay={true}
-                    interval={3}
+                    interval={2}
                     goToSlide={goToSlides}
-                    showNavigation={false}
+                    showNavigation={true}
                     offsetRadius={offsetRadius}
                     animationConfig={configs}
                   />
                 ) : null}
+
               </div>
               <div
                 style={{
@@ -239,7 +239,7 @@ export default function Metaverse(): JSX.Element {
               >
                 <div className="pagination">
                   <div
-                    onClick={() => {
+                    onClick={() => {console.log("slides")
                       setGoToSlides(goToSlides - 1);
                     }}
                   >
@@ -265,14 +265,14 @@ export default function Metaverse(): JSX.Element {
             <div className="sub-home-image" >
               <div className="carousel-border"></div>
               <img src={Outerborder} alt="outerborder" className="outer-border" />
-              <div style={{ width: "50%", height: "500px", margin: "0 auto" }} className="parent-carousel">
+              <div style={{ width: "50%", height: "280px", margin: "0 auto" }} className="parent-carousel">
                 {slides.length > 0 ? (
                   <Carousel
                     slides={slides1}
                     autoPlay={true}
-                    interval={3}
+                    interval={2}
                     goToSlide={goToSlide}
-                    showNavigation={false}
+                    showNavigation={true}
                     offsetRadius={offsetRadius}
                     animationConfig={configs}
                   />
@@ -288,6 +288,7 @@ export default function Metaverse(): JSX.Element {
                 <div className="pagination">
                   <div
                     onClick={() => {
+                      console.log("gotoslide")
                       setGoToSlide(goToSlide - 1);
                     }}
                   >
@@ -307,8 +308,6 @@ export default function Metaverse(): JSX.Element {
           </div>
         </div>
       </div>
-      
-      {/* {isMobile ? <ScrollMobile /> : <ScrollWeb />} */}
     </div>
     </>
   );

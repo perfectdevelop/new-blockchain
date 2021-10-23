@@ -3,8 +3,8 @@ import "./index.scss";
 import MonoApe from "../../../../../../assets/images/pictures/team/1.png";
 import OboApe from "../../../../../../assets/images/pictures/team/2.png";
 import ConorApe from "../../../../../../assets/images/pictures/team/3.png";
-import Team4 from "../../../../../../assets/images/pictures/team/4.jpg";
-import Team5 from "../../../../../../assets/images/pictures/team/5.jpg";
+import Team4 from "../../../../../../assets/images/pictures/team/4.png";
+import Team5 from "../../../../../../assets/images/pictures/team/5.png";
 import Team6 from "../../../../../../assets/images/pictures/team/6.png";
 
 

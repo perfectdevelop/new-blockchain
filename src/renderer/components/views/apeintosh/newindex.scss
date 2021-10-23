@@ -6,8 +6,6 @@
 .game-title{
   margin-bottom: 0 !important;
   margin: 0 50px 30px;
-  border: 3px solid gold;
-  box-shadow: 0 0 10px;
   border-radius: 10px;
   padding: 10px 15%;
   text-align: start;
@@ -27,6 +25,7 @@
   align-items: center;
   background-color: var(--dark-blue);
   position: relative;
+  padding: 0 8%;
 
   // flex-wrap: wrap;
   .homenew{
@@ -170,12 +169,11 @@
       padding-top: 0 !important;
     }
     .home-image{
-      zoom: 0.85;
       width: 100%;
       display: flex;
       height: auto;
       justify-content: center;
-      padding-top: 170px;
+      padding-top: 100px;
       .child-home-image{
         width: 500px;
       }
@@ -203,13 +201,12 @@
         .sub-home-image{
           position: relative;
           margin: 60px auto 0px;
-          min-height: 440px;
           width: 100%;
           .carousel-border{
             position: absolute;
             padding: 3px;
-            width: 500px;
-            height: 500px;
+            width: 280px;
+            height: 280px;
             z-index: 99;
             left: 0px;
             right: 0px;
@@ -226,31 +223,39 @@
           }
           .outer-border{
             position: absolute;
-            left: -15px;
-            width: 530px;
-            top: -20px;
+            left: 100px;
+            width: 300px;
+            top: -12px;
           }
           .single-border{
             position: absolute;
             width: 269px;
             top: -10px;
-            left: 115px;
+            left: 74px;
           }
           .parent-carousel{
             div{
               div{
                 img{
-                  // border: 15px solid hsl(313, 96%, 80%);
                   border: 10px solid #fbdb33;
                 }
               }
+            }
+          }
+          .parent-carousel > div:nth-child(2){
+            height: 20px !important;
+            margin: 4rem auto 0px !important;
+            width: 180% !important;
+            margin-left: -100px !important;
+            img:nth-child(1), img:nth-child(2){
+              z-index: 1000;
+              opacity: 0;
             }
           }
         }
       
     }
   }
-
   > svg {
     position: absolute;
     bottom: 3%;
@@ -265,18 +270,13 @@
       z-index: 2;
     }
     .apeintosh-content {
-      /*     height: 300px;
-            width: 378px; */
-      /*     height: 100px;
-            width: 100px; */
       height: var(--height);
       width: var(--width);
-      // background-color: rgba($color: #abd4ce, $alpha: 0.8);
       position: absolute;
       top: var(--y);
       left: var(--x);
-      mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
-      --webkit-mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+      // mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
+      // --webkit-mask-image: url(../../../../assets/images/pictures/backgrounds/computer-clip.png);
       mask-size: 100%;
       mask-repeat: no-repeat;
       mask-position: center;
@@ -367,7 +367,6 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
   .apeintosh {
-    // padding: 3% 5% 18% 5%;
     .apeintosh-pc {
       width: 80%;
       position: relative;

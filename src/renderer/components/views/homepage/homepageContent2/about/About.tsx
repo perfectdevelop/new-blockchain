@@ -1,17 +1,6 @@
 import React from 'react';
 import "./index.scss";
-
-import AboutCarrousel from "./aboutCarrousel/AboutCarrousel";
 import { useMediaQuery } from "react-responsive";
-
-import { ReactComponent as Ape } from "../../../../../../assets/images/pictures/backgrounds/ape-headmaster2.svg";
-import { ReactComponent as Cap } from "../../../../../../assets/images/pictures/icons/Cap2.svg";
-
-// import ape from "../../../../../../assets/images/pictures/backgrounds/ape-headmaster2.svg";
-// import cap from "../../../../../../assets/images/pictures/icons/Cap2.svg";
-import ape from "../../../../../../assets/images/pictures/backgrounds/ape-headmaster2.png";
-import About9 from '../../../../../../assets/images/tokens/3.jpg';
-import About10 from '../../../../../../assets/images/tokens/4.jpg';
 
 import SingleCarousel from '../../../apeintosh/SingleCarousel';
 
@@ -52,7 +41,6 @@ export default function About(): JSX.Element {
           <SingleCarousel />
         </div>
       </div>
-      {/* <AboutCarrousel /> */}
     </>
   );
 }
